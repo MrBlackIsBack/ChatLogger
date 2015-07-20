@@ -1,0 +1,12 @@
+main: com.mrblackisback.ChatLogger
+name: ChatLogger
+version: 0.1
+
+commands:
+   show:
+      description: Shows a players previous chat messages.
+      usage: /<show> [player]
+      
+permissions:
+   chatlogger.show:
+      default: op
