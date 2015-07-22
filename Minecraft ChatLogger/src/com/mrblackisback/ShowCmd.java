@@ -97,5 +97,4 @@ public class ShowCmd implements CommandExecutor {
 				+ (((map.size() % pageLength) == 0) ? map.size() / pageLength : (map.size() / pageLength) + 1)
 				+ ChatColor.GREEN + " pages");
 	}
-
 }
