@@ -66,14 +66,6 @@ public class ShowCmd implements CommandExecutor {
 						} else {
 							paginate(sender, page, 1, 5);
 						}
-						// while ((line = read.readLine()) != null) {
-						// page.put(l, line);
-						// paginate(sender, page, 1, 5);
-						// sender.sendMessage(ChatColor.translateAlternateColorCodes('&',
-						// line));
-						// l++;
-						// }
-
 						read.close();
 					} catch (IOException e) {
 						e.printStackTrace();
