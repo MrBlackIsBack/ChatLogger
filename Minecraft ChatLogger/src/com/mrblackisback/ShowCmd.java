@@ -20,9 +20,7 @@ public class ShowCmd implements CommandExecutor {
 
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String args[]) {
-
 		ChatLogger main = ChatLogger.instance;
-
 		if (cmd.getName().equalsIgnoreCase("show")) {
 			if (sender.hasPermission("chatlogger.show")) {
 				if (args.length == 0 || args.length > 2) {
